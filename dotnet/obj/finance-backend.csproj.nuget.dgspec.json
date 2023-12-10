@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/diti/Desktop/Desktop - 2023/SEEU/Logic & Functional Programming/Prolog/Projekti - Medical Expert System & NLP/finance-backend/finance-backend/finance-backend.csproj": {}
+  },
+  "projects": {
+    "/home/diti/Desktop/Desktop - 2023/SEEU/Logic & Functional Programming/Prolog/Projekti - Medical Expert System & NLP/finance-backend/finance-backend/finance-backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/diti/Desktop/Desktop - 2023/SEEU/Logic & Functional Programming/Prolog/Projekti - Medical Expert System & NLP/finance-backend/finance-backend/finance-backend.csproj",
+        "projectName": "finance-backend",
+        "projectPath": "/home/diti/Desktop/Desktop - 2023/SEEU/Logic & Functional Programming/Prolog/Projekti - Medical Expert System & NLP/finance-backend/finance-backend/finance-backend.csproj",
+        "packagesPath": "/home/diti/.nuget/packages/",
+        "outputPath": "/home/diti/Desktop/Desktop - 2023/SEEU/Logic & Functional Programming/Prolog/Projekti - Medical Expert System & NLP/finance-backend/finance-backend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/diti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
