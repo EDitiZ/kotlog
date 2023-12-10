@@ -1,0 +1,75 @@
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 40px;
+    border: 2px solid gainsboro;
+    box-shadow: 5px 5px 10px gainsboro;
+    border-radius: 10px;
+}
+
+.login-container .form-title > h1{
+    color: #FC735D;
+    /* text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.397); */
+}
+
+.login-container .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    gap: 1.5rem;
+}
+
+.login-container .login-form .form-field
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.login-container .login-form .form-field input{
+    width: 15rem;
+    height: 1.5rem;
+    padding: 2px 10px;
+}
+
+.form-buttons{
+   width: 100%;
+   display: flex;
+   gap: 5px;
+}
+
+.form-buttons button{
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-buttons :first-child{
+    
+    background-color: rgb(207, 207, 207);
+}
+
+.form-buttons :nth-child(2){
+    background-color: #FC735D;
+    color: white;
+}
+
+.login-page-no-account{
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-page-no-account :nth-child(2){
+    margin-top: 4px;
+    color: blue;
+    cursor: pointer;
+}
